@@ -17,6 +17,7 @@
     "grunt-replace": "^1.0.1"
   },
   "scripts": {
-	"start": "grunt serve"
+    "postinstall": "grunt uglify",
+    "start": "node main.js"
   }
 }
